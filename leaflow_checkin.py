@@ -228,7 +228,7 @@ class LeaflowAutoCheckin:
             logger.info("获取账号余额...")
             
             # 跳转到仪表板页面
-            self.driver.get("https://checkin.leaflow.net")
+            self.driver.get("https://leaflow.net/launchpad")
             time.sleep(3)
             
             # 等待页面加载
